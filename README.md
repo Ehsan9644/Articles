@@ -12,7 +12,7 @@ This project is a Ruby on Rails application that allows users to create articles
 ## Installation
 1. Clone the repository: `git clone https://github.com/Ehsan9644/Articles.git`
 2. Install dependencies: `bundle install`
-3. Set up the database: `rails db:create db:migrate`
+3. Set up the database: `rails db: create db: migrate`
 4. Start the server: `rails server`
 
 ## Usage
