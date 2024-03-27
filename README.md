@@ -31,8 +31,8 @@ This project is a Ruby on Rails application that allows users to create articles
 5. Submit a pull request.
 
 ## Credits
-- Author: Your Name
-- Email: your.email@example.com
+- Author: M Ehsan ul Haq
+- Email: ehsanulhaq9644@gamil.com
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
