@@ -4,7 +4,7 @@ class Comment < ApplicationRecord
   belongs_to :article
 
   after_create :status_change, if: ->{self.article.status != 'public'}
-after_save :done, if: ->{self.article.exist? ==true}
+after_save :done, if: ->{self.article.exist? }
   private
   def status_change
    
