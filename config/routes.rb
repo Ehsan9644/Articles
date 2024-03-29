@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
+  devise_for :users
   root "articles#index"
   
   resources :articles do
     resources :comments
   end
+  
   #get 'articles/archived', to: 'articles#archived', as: :archived_articles
 
 # get "/articles", to: "articles#index"
