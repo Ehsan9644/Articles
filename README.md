@@ -1,18 +1,18 @@
 # My Project Name
 
 ## Description
-This project is a Ruby on Rails application that allows users to create articles and make comments on them. It includes authentication functionality to ensure that only authenticated users can create articles and comments.
+This project is a Ruby on Rails application that allows users to create articles and make comments on them. It includes authentication functionality using Devise to ensure that only authenticated users can create articles and comments. The frontend is styled using Bootstrap CSS and JavaScript for a responsive design.
 
 ## Features
-- User authentication: Users can sign up, log in, and log out.
+- User authentication: Users can sign up, log in, and log out using Devise.
 - Article management: Authenticated users can create, edit, and delete articles.
 - Comment system: Users can add comments to articles.
-- Responsive design: The application is designed to be usable on both desktop and mobile devices.
+- Responsive design: The application is designed to be usable on both desktop and mobile devices, with styling provided by Bootstrap.
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/Ehsan9644/Articles.git`
 2. Install dependencies: `bundle install`
-3. Set up the database: `rails db: create db: migrate`
+3. Set up the database: `rails db:create db:migrate`
 4. Start the server: `rails server`
 
 ## Usage
